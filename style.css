@@ -1,0 +1,234 @@
+/*index*/
+.wrap{
+    background: whitesmoke;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.wrap .back {
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.wrap .movtext{
+    height: 40px;
+    font-size: 25px;
+}
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 100%;
+}
+/*design menu*/
+.wrap .badan .sideleft {
+    float: left;	
+    width: 180px;
+    height: 100%;
+}
+/*akhir design menu*/
+
+/*content*/
+.wrap .badan .content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+/*akhir content*/
+
+
+/*sidebar kanan*/
+.wrap .badan .sideright{
+    float: right;	
+    width: 180px;
+    height: 100%;
+    margin-right: 10px;
+}
+/*akhir sidebar kanan*/
+
+/*footer*/
+.footer{
+    height: 50px;
+    text-align: center;
+}
+/*akhir footer*/
+
+.tablecontent{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 180px;
+}
+
+/*akhir css index*/
+
+/*berita html*/
+
+/*akhir css berita html*/
+
+/*detail berita*/
+.konten-artikel  {
+    height: 100%;
+}
+
+.wrap .konten-artikel .pict{
+    float: left;	
+    width: 300px;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.wrap .konten-artikel .isi{
+    height: 100%;
+    padding-bottom: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*akhir detail berita*/
+
+/*list peserta*/
+.peserta{
+    height: 100%;
+}
+.wrap .peserta .tambah-data{
+    float: right;
+    margin-right: 50px;
+}
+.wrap .peserta .list-peserta{
+    margin-left: 180px;
+    padding-bottom: 80px;
+}
+/*akhir list peserta*/
+
+/*Detail Peserta*/
+.layout-peserta{
+    height: 300px;
+}
+.wrap .layout-peserta .foto{
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+    height: 100%;
+    width: 150px;
+}
+.wrap .layout-peserta .data-peserta{
+    height: 100%;
+    
+}
+.wrap .tombol-ud{
+    margin-left: 42px;
+    padding-bottom: 80px;
+}
+
+.wrap .tombol-ud .button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+/*Akhir Detail Peserta*/
+
+/*Tambah data*/
+
+.wrap .layout-peserta .daftar input{
+    margin-bottom: 5px;
+    padding-right: 50px;
+}
+/*Akhir Tambah Data*/
+
+/*Layout Kegiatan*/
+.wrap .dokumentasi .table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrap .dokumentasi .table .box-kegiatan{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wrap .dokumentasi .table .box-kegiatan .noborder{
+    border: none;
+    text-align: center;
+}
+.wrap .dokumentasi .table .box-kegiatan .border {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+    width: 120px;
+}
+#border{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+}
+.wrap .dokumentasi .table img{
+    margin-bottom: 5px;
+}
+/*Akhir Layout Kegiatan*/
+
+/*Layout Kegiatan*/
+.wrap .detail-kegiatan{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wrap .tombol-kegiatan{
+padding-bottom: 80px;
+}
+
+.wrap .tombol-kegiatan .kembali{
+    margin-left: 50px;
+    float: left;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wrap .tombol-kegiatan .hapus-kegiatan{
+    float: right;
+    margin-right: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+/*Akhir Layout Kegiatan*/
+
+/*Layout Kontak*/
+
+.wrap .kontak input{
+    padding-right: 50px;
+}
+
+.wrap .kontak input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/*Akhir layout kontak*/

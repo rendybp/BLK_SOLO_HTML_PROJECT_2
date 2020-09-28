@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KONTAK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .wrap{
+            height: 100%;
+        }
+        .wrap .badan .konten{
+            width: 50%;
+            float: left;
+            font-size: 10px;
+        }
+        .wrap .badan .konten h1{
+            text-align: center;
+            margin-top: -1px;
+        }
+        .wrap .badan .konten .isi .kontak label{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="pict/header.png" alt="header">
+        </div>
+        <div class="movtext">
+            <marquee behavior="scroll" direction="right">
+                Berita : Pembukaan Pendaftaran Peserta Pelatihan 2021
+            </marquee>
+        </div>
+        <div class="badan">
+            <div class="sideleft">
+                <ol style="list-style-type: none;">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="berita.html">BERITA</a></li>
+                    <li><a href="peserta.html">DATA PESERTA</a></li>
+                    <li><a href="kegiatan.html">KEGIATAN</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                </ol>
+            </div>
+            <div class="konten">
+                <h1>
+                    KONTAK
+                </h1>
+                <div class="isi">
+                    <div class="kontak">
+                        <form>
+                            <label for="nama">Nama &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <input type="text" name="nama" placeholder="Masukkan Nama Anda">
+                                <br>
+                            <label for="email">Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <input type="text" name="email" placeholder="Masukkan Email Anda">
+                                <br>
+                            <label for="pesan">Alamat &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Masukkan Pesan"></textarea>
+                                <br>
+                                <br>
+                                <br>
+                                <input type="submit" value="kirim">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="sideright">
+                <table class="tablecontent">
+                    <tr class="tablecontent">
+                        <th class="tablecontent">PENGUMUMAN</th>
+                    </tr>
+                    <tr class="tablecontent">
+                        <td class="tablecontent">Untuk Peserta Pelatihan diharapkan membawa fotocopy ijazah</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="tablecontent">
+                    <tr class="tablecontent">
+                        <th class="tablecontent">KEGIATAN</th>
+                    </tr>
+                    <tr class="tablecontent">
+                        <td><img src="kegiatan/kegiatan1.jpg" alt="kegiatan" width="170px"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <em><i>copyright@webmu.com</i></em>
+        </div>
+    </div>
+</body>
+</html>

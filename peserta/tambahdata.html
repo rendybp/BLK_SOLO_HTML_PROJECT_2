@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAMBAH DATA PESERTA</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <style>
+        .wrap{
+            height: 100%;
+        }
+        .wrap .badan .konten{
+            width: 50%;
+            float: left;
+            font-size: 10px;
+            height: 100%;
+        }
+        .wrap .badan .konten h1{
+            text-align: center;
+            margin-top: -1px;
+        }
+        .wrap .badan .konten .isi .foto{
+            float: left;
+            margin-right: 10px;
+            height: 400px;
+        }
+        .wrap .badan .konten .isi .foto p{
+            font-size: 13px;
+            text-align: center;
+        }
+        .wrap .badan .konten .isi .tambah{
+            font-size: 13px;
+        }
+        .wrap .footer{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="../pict/header.png" alt="header">
+        </div>
+        <div class="movtext">
+            <marquee behavior="scroll" direction="right">
+                Berita : Pembukaan Pendaftaran Peserta Pelatihan 2021
+            </marquee>
+        </div>
+        <div class="badan">
+            <div class="sideleft">
+                <ol style="list-style-type: none;">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../berita.html">BERITA</a></li>
+                    <li><a href="../peserta.html">DATA PESERTA</a></li>
+                    <li><a href="../kegiatan.html">KEGIATAN</a></li>
+                    <li><a href="../kontak.html">KONTAK</a></li>
+                </ol>
+            </div>
+            <div class="konten">
+                <h1>
+                    TAMBAH DATA PESERTA
+                </h1>
+                <div class="isi">
+                    <div class="foto">
+                        <img src="peserta1.jpg" alt="peserta1" width="100px">
+                        <p>Contoh Gambar</p>
+                    </div>
+                    <div class="tambah">
+                        <form class="daftar">
+                            <label for="nama">Nama &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <input type="text" name="nama" placeholder="Masukkan Nama Anda">
+                                <br>
+                            <label for="ttl">TTL &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :  &nbsp &nbsp &nbsp</label>
+                                <input type="date" name="ttl">
+                                <br>
+                            <label for="agama">Agama &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :  &nbsp &nbsp &nbsp</label>
+                                <input type="text" name="agama" placeholder="Masukkan Agama Anda">
+                                <br>
+                            <label for="telp">No Telp.  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <input type="text" name="telp" placeholder="Masukkan No Telephone">
+                                <br>
+                            <label for="foto">Foto &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</label>
+                                <input type="file" name="foto">
+                                <br>
+                                <br>
+                            <label for="alamat">Alamat &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <textarea name="alamat" id="alamat" cols="15" rows="7" placeholder="Masukkan Alamat Anda"></textarea>
+                                <br>
+                                <br>
+                            <label for="pendidikan">Pendidikan &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp &nbsp</label>
+                                <textarea name="pendidikan" id="pendidikan" cols="15" rows="7" placeholder="Masukkan Pendidikan Yang Pernah Ditempuh"></textarea>
+                                <br>
+                        </form>
+                    </div>
+                </div>
+                <div class="tombol-ud">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="#" class="button">SIMPAN</a>
+                    <a href="../peserta.html" class="button">BATAL</a>
+                </div>
+            </div>
+            <div class="sideright">
+                <table class="tablecontent">
+                    <tr class="tablecontent">
+                        <th class="tablecontent">PENGUMUMAN</th>
+                    </tr>
+                    <tr class="tablecontent">
+                        <td class="tablecontent">Untuk Peserta Pelatihan diharapkan membawa fotocopy ijazah</td>
+                    </tr>
+                </table>
+                <br>
+                <table class="tablecontent">
+                    <tr class="tablecontent">
+                        <th class="tablecontent">KEGIATAN</th>
+                    </tr>
+                    <tr class="tablecontent">
+                        <td><img src="../kegiatan/kegiatan1.jpg" alt="kegiatan" width="170px"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <em><i>copyright@webmu.com</i></em>
+        </div>
+    </div>
+</body>
+</html>
